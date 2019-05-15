@@ -33,4 +33,4 @@ with open(file=csv_source_file, mode='r', encoding='utf-8') as csv_file:
     except Exception as e :
         print(f'Erros during tweets load : {e} ')
 
-print('Tweets load completed without ')
+print('Tweets load completed without issues')
