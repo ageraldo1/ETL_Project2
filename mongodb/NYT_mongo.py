@@ -3,8 +3,9 @@ import time
 import json
 import pymongo
 from pprint import pprint
-
+#begin,end dates should be in format "YYYY-MM-DD"
 def NYT(begin,end):
+
     articlelist = []
     hits = 1
     page = 1
