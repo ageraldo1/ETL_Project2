@@ -54,8 +54,6 @@ def NYT(begin,end):
 
     collection = db.NYT
 
-    collection.remove({})
-
     for article in articlelist:
         collection.insert_one(article)
 
